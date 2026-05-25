@@ -18,32 +18,63 @@ Backend часть проекта ITSTEP Connect.
 - Posts CRUD
 - Comments CRUD
 - Protected Routes
+## Установка PostgreSQL
 
-## Run project
-### 1. Install PostgreSQL
+Скачать PostgreSQL и pgAdmin.
 
-Создать базу данных:
-```sql
-CREATE DATABASE itstep_connect;
+После установки открыть pgAdmin.
 ```
-### 2. Configure database
+## Создание базы данных
 
-PostgreSQL config:
+1. Открыть pgAdmin
 
-- dbname: itstep_connect
-- user: postgres
-- password: 123
-- port: 5432
-### 3. Run backend
+2. Нажать правой кнопкой на Databases
+
+3. Create → Database
+
+4. Название базы данных:
+
+```text
+itstep_connect
+```
+
+5. Нажать Save
+## PostgreSQL Config
+
+Database:
+itstep_connect
+
+User:
+postgres
+
+Password:
+123
+
+Port:
+5432
+## Clone repository
+
+```bash
+git clone https://github.com/rash111d/project-web.git
+```
+## Открыть проект
+
+```bash
+cd project-web
+```
+## Установка зависимостей
+
+```bash
+go mod tidy
+```
+## Запуск backend
 
 ```bash
 go run cmd/main.go
 ```
-Backend runs on:
+Backend запускается на:
 
-```text
 http://localhost:8080
-```
 ## API Routes
 
 ### Auth
@@ -51,7 +82,6 @@ http://localhost:8080
 POST /register
 
 POST /login
-
 ### Posts
 
 GET /api/posts
@@ -59,7 +89,6 @@ GET /api/posts
 POST /api/posts
 
 DELETE /api/posts/:id
-
 ### Comments
 
 POST /api/comments
@@ -67,24 +96,28 @@ POST /api/comments
 GET /api/posts/:id/comments
 
 DELETE /api/comments/:id
-## Installation
-### Clone repository
+## Authorization
+
+Protected routes используют JWT token.
+
+Authorization Header:
+
+Bearer TOKEN
+## Архитектура проекта
+
+Структура проекта:
+
+- cmd
+- internal/database
+- internal/models
+- internal/handlers
+- internal/middleware
+## Git Commands
 
 ```bash
-git clone https://github.com/rash111d/itstep-connect-backend.git
-```
-### Open project
+git add .
 
-```bash
-cd itstep-connect-backend
-```
-### Install dependencies
+git commit -m "Update project"
 
-```bash
-go mod tidy
-```
-### Run backend
-
-```bash
-go run cmd/main.go
+git push
 ```
