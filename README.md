@@ -103,4 +103,5 @@ Project structure:
 
 ## Скриншоты
 
-C:\Users\Ислам\OneDrive\Pictures\Screenshots\Снимок экрана 2026-05-27 173547.png
+<img width="2394" height="1384" alt="Снимок экрана 2026-05-27 173547" src="https://github.com/user-attachments/assets/f9d0ef28-97be-4bbc-9b12-a374a719d489" />
+
