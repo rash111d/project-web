@@ -105,3 +105,8 @@ Project structure:
 
 <img width="2394" height="1384" alt="Снимок экрана 2026-05-27 173547" src="https://github.com/user-attachments/assets/f9d0ef28-97be-4bbc-9b12-a374a719d489" />
 
+<img width="2374" height="1416" alt="Снимок экрана 2026-05-27 173609" src="https://github.com/user-attachments/assets/a4605316-be83-43e1-a9ff-ff9660def10b" />
+
+<img width="2448" height="1474" alt="Снимок экрана 2026-05-27 173748" src="https://github.com/user-attachments/assets/d1373859-6276-4436-abd1-b041c25bf2fd" />
+
+<img width="2465" height="1450" alt="Снимок экрана 2026-05-27 173836" src="https://github.com/user-attachments/assets/6b2071aa-6a54-4376-b8a0-4d6be89a75aa" />
