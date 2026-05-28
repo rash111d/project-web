@@ -1,4 +1,7 @@
-﻿# ITSTEP Connect Backend
+ссылка на figma: https://www.figma.com/design/TTCHSc5KEjjcU70A1NKGtv/Untitled?node-id=0-1&t=LEcmhuQhXTww05Vq-1
+
+
+ # ITSTEP Connect Backend
 
 Backend часть проекта ITSTEP Connect.
 
@@ -112,4 +115,4 @@ Project structure:
 <img width="2465" height="1450" alt="Снимок экрана 2026-05-27 173836" src="https://github.com/user-attachments/assets/6b2071aa-6a54-4376-b8a0-4d6be89a75aa" />
 
 
-ссылка на figma: https://www.figma.com/design/TTCHSc5KEjjcU70A1NKGtv/Untitled?node-id=0-1&t=LEcmhuQhXTww05Vq-1
+
