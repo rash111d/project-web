@@ -110,3 +110,6 @@ Project structure:
 <img width="2448" height="1474" alt="Снимок экрана 2026-05-27 173748" src="https://github.com/user-attachments/assets/d1373859-6276-4436-abd1-b041c25bf2fd" />
 
 <img width="2465" height="1450" alt="Снимок экрана 2026-05-27 173836" src="https://github.com/user-attachments/assets/6b2071aa-6a54-4376-b8a0-4d6be89a75aa" />
+
+
+ссылка на figma: https://www.figma.com/design/TTCHSc5KEjjcU70A1NKGtv/Untitled?node-id=0-1&t=LEcmhuQhXTww05Vq-1
